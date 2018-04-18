@@ -85,6 +85,8 @@ GEM
     execjs (2.7.0)
     faraday (0.10.1)
       multipart-post (>= 1.2, < 3)
+    fast_jsonapi (1.1.1)
+      activesupport (>= 4.2)
     ffi (1.9.14)
     formatador (0.2.5)
     globalid (0.3.7)
@@ -335,6 +337,7 @@ DEPENDENCIES
   elasticsearch-model
   elasticsearch-rails
   execjs
+  fast_jsonapi
   graphiql-rails
   graphql
   graphql-activerecord
@@ -375,4 +378,4 @@ RUBY VERSION
    ruby 2.3.3
 
 BUNDLED WITH
-   1.15.3
+   1.16.1

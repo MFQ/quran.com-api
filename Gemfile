@@ -61,6 +61,8 @@ gem 'tzinfo-data'
 # Detect the language
 gem 'whatlanguage'
 
+gem 'fast_jsonapi'
+
 group :development, :test do
   gem 'pry-byebug'
   gem 'pry-rails'
